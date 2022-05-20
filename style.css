@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+:root {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(135deg, rgba(2, 0, 36, 1) 65%, rgba(9, 9, 121, 1) 87%);
+    min-height: 100vh;
+}
+
+h1,
+h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+h1 {
+
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#outline {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 7%;
+    padding-left: 3%;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+img {
+    width: 800px;
+}
+
+.btn {
+    background-color: white;
+    width: 90px;
+    height: 140px;
+    border-radius: 30px;
+    color: black;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: border-radius 120ms, transform 120ms;
+}
+.btn:hover{
+    border-radius: 15px;
+    transform: scale(1.1);
+}
+#para {
+    color: aliceblue;
+    font-family: "Varela Round", sans-serif;
+    font-size: 20px;
+    padding: 0 2% 0 2%;
+    line-height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe{
+    width: 800px;
+    height: 600px;
+    border: none;
+}
+@media screen and (max-width:1700px) {
+    #outline{
+        flex-direction: column
+    };
+}
